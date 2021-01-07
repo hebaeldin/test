@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Review Suite">
+<parameter name="browser" value="firefox"></parameter>
+  <test name="review test">
+    <classes>
+      <class name="again.Review.login"/>
+    </classes>
+  </test> 
+</suite>
